@@ -59,6 +59,46 @@ input, button {
     cursor: pointer;
 }
 
+.meme {
+    position: relative;
+}
+
+.meme--text {
+    position: absolute;
+    width: 100%;
+
+    color: white;
+    text-align: center;
+    font-family: impact;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top {
+    
+    top: 0;
+    /* background: white; */
+    
+}
+
+.bottom {
+    transform-origin: bottom center;
+    bottom: 0;
+}
+
+
 .meme--image {
     max-width: 100%;
     margin-top: 1rem;
